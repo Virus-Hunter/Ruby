@@ -1,0 +1,8 @@
+Heartbeat error reset
+
+1) Find the file \vendor\bundle\ruby\2.3.0\gems\discordrb-3.1.1\lib\discordrb\gateway.rb
+
+2) Find 'An error occurred while heartbeating!' in the code
+
+3) Add the following to the rescue handler
+	abort

@@ -1,0 +1,35 @@
+---
+# Discord API client ID
+client_id: 
+
+# Discord API bot user token
+token: 
+
+# Command prefix
+prefix: 
+
+# ID of bot owner, also used for various bot owner-only commands and events
+owner: 
+
+# ID of the bot itself, not necessary but used for one response in particular. Enter "ruby show id" to have the bot give you the ID
+botID: 
+
+# game the bot is playing
+game:
+
+# Google API credentials (required for google search)
+googleAPIKey: 
+googleSearchCX: 
+
+# Youtube API credentials (required for youtube search)
+youtubeDeveloperKey: 
+
+# Tumblr API credentials (required for artprotips search)
+tumblrConsumerKey: 
+tumblrConsumerSecret: 
+tumblrOAuthToken: 
+tumblrOAuthTokenSecret: 
+
+# Cleverbot API credentials (required for cleverbot responses)
+clevbotAPIUser: 
+clevbotAPIKey: 

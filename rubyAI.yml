@@ -1,0 +1,74 @@
+# default and knowledge are obligatory tags
+default: 
+  # 'dontunderstant' - obligatory tag
+  dontunderstand:
+    q1: "I don't understand"
+  thinking:
+    q1: "hm.."
+    q2: "interesting..."
+
+# facultative, only if you want to use it as variables in dialog, like:
+# sometag:
+#   responses:
+#     r1: call me bot:name
+knowledge:
+  bot:
+    sex: "female"
+    language: "english"
+    name: "Ruby"
+    specimen: "Cat"
+  emo:
+    happy: ":-)"
+    sad: ":-("
+
+# AIML-like tags
+name:
+  rank: 10
+  patterns:
+    p1: "what * your name"
+    p2: "* your name"
+  responses:
+    r1: "The name's bot:name"
+    r2: "Call me bot:name"
+
+hello:
+  patterns:
+    p1: "hello ruby"
+    p1a: "hello"
+    p2: "hi"
+    p3: "good morning *"
+    p3a: "hello"
+    p4: "good day *"
+    p4a: "good day"
+    p5: "hey"
+    p5a: "hey ruby"
+    p5b: "hey rubes"
+  responses:
+    r1: "Hey there" 
+    r2: "Hi"
+    r3: "Hey"
+    r4: "What's shakin"
+
+sprits:
+    patterns:
+        p1: "sprits"
+        p1a: "* sprits"
+        p1b: "sprits *"
+    responses:
+        r1: "nO"
+        r2: "DO NOT SPRITS THE CAT"
+        r3: "How about nO"
+    
+howareyou:
+    patterns:
+        p1: "how are you"
+        p1a: "how are you *"
+        p1b: "* how are you"
+        p2: "how are ya"
+        p2a: "how are ya *"
+        p2b: "* how are ya"
+    responses:
+        r1: "I'm doin fine"
+        r2: "Feelin pretty good"
+        r3: "I'm ok"
+        r4: "Ehh~"
