@@ -9,7 +9,7 @@ Getting Started
 Ruby is a pet project of mine. I'm not a very good programmer, so her code is poorly written and not much of it is documented. You have been warned.
 
 ### Requirements
--Ruby 2.1 or higher
+-Ruby 2.1 or higher 
 -Bundler gem
 
 ### Installation
