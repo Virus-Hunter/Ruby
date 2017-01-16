@@ -9,12 +9,15 @@ Getting Started
 Ruby is a pet project of mine. I'm not a very good programmer, so her code is poorly written and not much of it is documented. You have been warned.
 
 ### Requirements
--Ruby 2.1 or higher 
+-Ruby 2.1 or higher
+
 -Bundler gem
 
 ### Installation
 -Place the files somewhere, `cd` to it and enter `bundle install`
+
 -Open the `config-template.yaml` file located in the `\data` folder and enter your discord dev/bot credentials. Then rename the file to `config.yaml`.
+
 
 -Other credentials
 
@@ -36,9 +39,12 @@ Usage
 -----
 ### Starting up Ruby
 On Linux:
+
 Run `Ruby.sh`
 
+
 On Windows:
+
 Edit the `Ruby.bat` file, change `C:\Ruby23\bin\ruby.exe` to the location of your Ruby executable. Save, then run `Ruby.bat`
 
 Both `Ruby.sh` and `Ruby.bat` are made so that if something stops the bot (Such as the force reset command) the bot will automatically restart.
@@ -65,11 +71,17 @@ Enter `.rt (query)` to talk directly to Ruby. She has an incredibly basic AI, he
 
 ##### Chat Responses
 Additionally, Ruby can respond to some stuff. You can try things like
+
 `sprits sprits`
+
 `[blah blah blah] right ruby?`
+
 `ruby whatcha think about [blah blah blah]?`
+
 `RUBY!` (Useful for simple pinging)
+
 There are other triggers littered in a bunch of the events.
+
 
 ### Adding functions
 Thanks to the [gemstone](https://github.com/z64/gemstone) framework, you can easily add commands and events as modules.
