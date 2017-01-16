@@ -21,7 +21,7 @@ Ruby is a pet project of mine. I'm not a very good programmer, so her code is po
 
 -Other credentials
 
-- The`ArtProtips` command requires [Tumblr API](https://www.tumblr.com/docs/en/api/v2) credentials
+- The`ArtProtips` and `Tumblr` commands require [Tumblr API](https://www.tumblr.com/docs/en/api/v2) credentials
 
 - The `Youtube` command requires [Youtube API](https://developers.google.com/youtube/registering_an_application) credentials
 
@@ -58,7 +58,9 @@ Enter `.g (query)` to google something
 
 ##### Protips Search
 Enter `.protips (query)` to have Ruby search for a post from the [ArtProtips tumblr blog](http://www.artprotips.tumblr.com) *(Results may contain artistic nudity)*.
-This is essentially a tumblr blog search function, the command itself can be customized to search any tumblr blog.
+
+##### Tumblr Search
+Enter `.tumblr (blog name) (tags)` to search any tumblr blog for a random post.
 
 ##### 8ball
 Enter `.8ball (query)` to have Ruby pull out the magic 8ball. Pretty standard.

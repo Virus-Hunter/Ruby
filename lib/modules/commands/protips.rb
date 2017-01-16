@@ -17,9 +17,13 @@ end
           break unless event.user.bot_account == false
 		  puts "protips triggered"
   client2 = Tumblr::Client.new
-  resultT = (client2.posts 'artprotips.tumblr.com', :tag => event.message.content[8..-1])
+  separaT = "#{event.message.content[8..-1]}".split(" ")
+  resultT = (client2.posts 'artprotips.tumblr.com', :tag => separaT[1..-1])
  returnT = UrlParser.new.extract_urls("#{resultT}")
   returnT.delete_if {|x| x =~ /.com/}
+  returnT.delete_if {|x| x =~ /.png/}
+  returnT.delete_if {|x| x =~ /.jpg/}
+  returnT.delete_if {|x| x =~ /.gif/}
   pturl = returnT.sample
   if returnT == []
     event.respond ["That's a shame, couldn't find anything.", "It seems I'm fresh outta tips for that!", "Nothin' on that I'm afraid...", "No results...*ᴵ ᵇᶫᵃᵐᵉ ⱽᴴ*", "Sorry pal, I got nothin!"].sample
@@ -27,6 +31,11 @@ end
   event.respond ["Give this a look thru! #{pturl}", "This help? #{pturl}", "Hope it helps! #{pturl}", "Here's a good one! #{pturl}", "One protip, comin' up! #{pturl}", "This one looks _real helpful_ #{pturl}", "Here's a fresh hot tip for ya! #{pturl}", "Try this on fer size! #{pturl}"].sample
   end
       end
+	  
+
+	  
+	  
+  
     end
   end
 end

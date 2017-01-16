@@ -9,6 +9,7 @@ module Bot
 ```.yt (query) - Search youtube for vids
 .g (query) - Search google
 .protips (query) - Search for a random post from Art Protips
+.tumblr (blog name) (tag) - Search a tumblr blog
 .8ball (query) - Ask the magic 8ball
 .rt (query) - Talk to ruby
 .pet - Pet ruby
